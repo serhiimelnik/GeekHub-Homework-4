@@ -1,0 +1,11 @@
+_index:
+    pattern:  /index
+    defaults: { _controller: AcmeDemoBundle:Hw:index }
+
+_congratulate:
+    pattern:  /congratulate
+    defaults: { _controller: AcmeDemoBundle:Hw:congratulate }
+
+_array:
+    pattern:  /array
+    defaults: { _controller: AcmeDemoBundle:Hw:array }
