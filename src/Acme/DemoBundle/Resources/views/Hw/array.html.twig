@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+{% extends "::base.html.twig" %}
+{% block body %}
 <h1>
     <p>{{ Manufactured }} {{ Model }}</p>
     <p>{{ Color }}</p>
     <p>{{ Price }}</p>
 </h1>
-</body>
-</html>
+{% endblock %}
